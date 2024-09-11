@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import TopBar from '../components/topbar';
 import SideBar from '../components/sidebar';
 import Dashboard from "./(dashboard)/page";

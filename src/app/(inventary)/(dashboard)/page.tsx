@@ -3,6 +3,7 @@
 import React, { useState } from 'react'; // Importar React explicitamente
 import { Edit, Trash, Eye } from 'lucide-react';
 import items from '../data/products/products'; // Importação dos itens do arquivo separado
+import Image from 'next/image';
 
 export default function Dashboard() {
     // Estado para a página atual
@@ -99,7 +100,7 @@ export default function Dashboard() {
                                 <tr>
                                     <td colSpan={8} className="bg-gray-100 p-4">
                                         <div className="flex items-start space-x-4">
-                                            <img 
+                                            <Image 
                                                 src="https://via.placeholder.com/200" 
                                                 alt="Imagem do Produto" 
                                                 className="w-72 h-72 object-cover" 

@@ -3,7 +3,7 @@ import TopBar from '../components/topbar';
 import SideBar from '../components/sidebar';
 import Dashboard from "./(dashboard)/page";
 
-export default function InventaryLayout({ children }: { children: ReactNode }) {
+export default function InventaryLayout() {
     return (
         <div className="flex h-screen">
             <SideBar />

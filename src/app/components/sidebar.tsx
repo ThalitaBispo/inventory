@@ -2,7 +2,7 @@ import { ShoppingCart, Home, User, Settings, Info, Phone, Mail, Calendar, Bell, 
 
 export default function SideBar() {
     return (
-        <div className="fixed top-0 left-0 w-20 h-screen bg-purple-800 text-white flex flex-col items-center py-4">
+        <div className="fixed top-0 left-0 w-20 h-screen text-white flex flex-col items-center py-4" style={{ backgroundColor: '#172F4C' }}>
             {/* Logo com o ícone de cesta */}
             <div className="mb-12"> {/* Aumentado o espaçamento abaixo do logo */}
                 <ShoppingCart className="w-8 h-8" />

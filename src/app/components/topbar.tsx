@@ -23,7 +23,7 @@ export default function TopBar() {
             </div>
 
             {/* Botão Adicionar */}
-            <button className="flex items-center space-x-2 bg-purple-600 text-white p-2 rounded hover:bg-purple-700">
+            <button className="flex items-center space-x-2 text-white p-2 rounded" style={{ backgroundColor: '#172F4C' }}>
                 <Plus className="w-5 h-5" />
                 <span>Adicionar</span>
             </button>

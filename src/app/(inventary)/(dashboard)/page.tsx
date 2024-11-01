@@ -41,7 +41,7 @@ export default function Dashboard() {
                 <button 
                     onClick={handlePreviousPage} 
                     disabled={currentPage === 1} 
-                    className="bg-purple-600 text-white px-4 py-2 rounded disabled:opacity-50"
+                    className="text-white px-4 py-2 rounded disabled:opacity-50" style={{ backgroundColor: '#172F4C' }}
                 >
                     Anterior
                 </button>
@@ -49,7 +49,7 @@ export default function Dashboard() {
                 <button 
                     onClick={handleNextPage} 
                     disabled={currentPage === Math.ceil(items.length / itemsPerPage)} 
-                    className="bg-purple-600 text-white px-4 py-2 rounded disabled:opacity-50"
+                    className="text-white px-4 py-2 rounded disabled:opacity-50" style={{ backgroundColor: '#172F4C' }}
                 >
                     Próximo
                 </button>
@@ -57,7 +57,7 @@ export default function Dashboard() {
 
             {/* Tabela de Itens */}
             <table className="min-w-full bg-white shadow-md rounded-lg overflow-hidden">
-                <thead className="bg-purple-600 text-white">
+                <thead className="text-white" style={{ backgroundColor: '#172F4C' }}>
                     <tr>
                         <th className="py-3 px-4 text-left">Código</th>
                         <th className="py-3 px-4 text-left">Nome</th>
@@ -198,7 +198,7 @@ export default function Dashboard() {
                 <button 
                     onClick={handlePreviousPage} 
                     disabled={currentPage === 1} 
-                    className="bg-purple-600 text-white px-4 py-2 rounded disabled:opacity-50"
+                    className="text-white px-4 py-2 rounded disabled:opacity-50" style={{ backgroundColor: '#172F4C' }}
                 >
                     Anterior
                 </button>
@@ -206,7 +206,7 @@ export default function Dashboard() {
                 <button 
                     onClick={handleNextPage} 
                     disabled={currentPage === Math.ceil(items.length / itemsPerPage)} 
-                    className="bg-purple-600 text-white px-4 py-2 rounded disabled:opacity-50"
+                    className="text-white px-4 py-2 rounded disabled:opacity-50" style={{ backgroundColor: '#172F4C' }}
                 >
                     Próximo
                 </button>
